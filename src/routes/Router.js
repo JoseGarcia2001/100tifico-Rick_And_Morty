@@ -15,7 +15,7 @@ class Router {
   _matchRoute() {
     let searchedRoute = this._getRoute();
 
-    if (searchedRoute <= 3) {
+    if (searchedRoute.length <= 3) {
       searchedRoute = searchedRoute === "/" ? searchedRoute : "/:id";
     }
     const matchedRoute = this.routes.find(

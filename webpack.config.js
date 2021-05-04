@@ -31,5 +31,6 @@ module.exports = {
     new HTMLPlugin({
       template: "./public/index.html",
     }),
+    new MiniCSSExtractPlugin(),
   ],
 };
