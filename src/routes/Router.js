@@ -1,3 +1,6 @@
+// Aquí obtendremos la ruta haremos la búsqueda de si se encuentra
+// y desplegaremos por último su template en la página.
+
 import Error404 from "../pages/Error404";
 
 class Router {
